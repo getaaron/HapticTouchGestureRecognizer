@@ -1,9 +1,13 @@
 # HapticTouchGestureRecognizer
 
+> ”iPhone Xʀ has a new feature we call Haptic Touch. So to get to the camera from the home screen, we just press on it. You feel a haptic tap, and you’re taken right to the camera.“
+>
+> — [Phil Schiller](https://twitter.com/pschiller)
+
 A gesture recognizer for iPhone Xʀ's Haptic Touch™ feature
 
 - Works just like a `UILongPressGestureRecognizer`
-- Plays haptic feedback just like iPhone Xʀ's lock screenshot
+- Plays haptic feedback just like iPhone Xʀ's home screen
 
 ## Installation
 
