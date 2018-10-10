@@ -26,7 +26,6 @@ In your View Controller:
 ```swift
 override func viewDidLoad() {
     super.viewDidLoad()
-    view.addSubview(label)
 
     let hapticTouchGestureRecognizer = HapticTouchGestureRecognizer(target: self,
                                                                     action: #selector(detected(gestureRecognizer:)))
@@ -36,5 +35,6 @@ override func viewDidLoad() {
 @objc func detected(gestureRecognizer: HapticTouchGestureRecognizer) {
     guard gestureRecognizer.state == .began else { return }
     // handle long press here
+    // haptic feedback plays automatically
 }
 ```
